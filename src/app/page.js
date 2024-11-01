@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+  const demo = 1;
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -75,7 +77,7 @@ export default function Home() {
           />
           Examples
         </a>
-        <a
+      <a
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
